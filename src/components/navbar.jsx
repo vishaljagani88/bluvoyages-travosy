@@ -201,7 +201,7 @@ export default function Navbar({ navclass, navlight, manuclass }) {
 
         <div id="navigation" style={{ display: isToggle === true ? "block" : "none" }}>
           <ul className={`navigation-menu ${manuclass}`}>
-            <li
+            {/* <li
               className={`has-submenu parent-menu-item ${
                 [
                   "/",
@@ -818,10 +818,88 @@ export default function Navbar({ navclass, navlight, manuclass }) {
                   </Link>
                 </li>
               </ul>
+            </li> */}
+
+            <li
+              className={`has-submenu parent-menu-item ${
+                ["/India", "/International"].includes(manu) ? "active" : ""
+              }`}
+            >
+              <Link to="" onClick={() => setSubManu(setManu === "/" ? "" : "")}>
+                Trips
+              </Link>
+              <span className="menu-arrow"></span>
+              <ul
+                className={`submenu ${
+                  ["/India", "/International"].includes(subManu) ? "open" : ""
+                }`}
+              >
+                <li className={`${manu === "/India" ? "active" : ""}`}>
+                  <Link to="/India" className="sub-menu-item">
+                    India
+                  </Link>
+                </li>
+                <li className={`${manu === "/International" ? "active" : ""}`}>
+                  <Link to="/International" className="sub-menu-item">
+                    International
+                  </Link>
+                </li>
+              </ul>
             </li>
 
-            <li className={`${manu === "/contact" ? "active" : ""}`}>
-              <Link to="/contact" className="sub-menu-item">
+            <li className={`${manu === "/" ? "active" : ""}`}>
+              <Link to="/" className="sub-menu-item">
+                Itinerary
+              </Link>
+            </li>
+
+            <li
+              className={`has-submenu parent-menu-item ${
+                ["/happy-travelers", "/curated-experiences", "/other-services"].includes(manu)
+                  ? "active"
+                  : ""
+              }`}
+            >
+              <Link
+                to=""
+                onClick={() => setSubManu(setManu === "/index-item" ? "" : "/index-item")}
+              >
+                Pages
+              </Link>
+              <span className="menu-arrow"></span>
+              <ul
+                className={`submenu ${
+                  ["/happy-travelers", "/curated-experiences", "/other-services"].includes(subManu)
+                    ? "open"
+                    : ""
+                }`}
+              >
+                <li className={`${manu === "/happy-travelers" ? "active" : ""}`}>
+                  <Link to="/happy-travelers" className="sub-menu-item">
+                    Happy Travelers
+                  </Link>
+                </li>
+                <li className={`${manu === "/curated-experiences" ? "active" : ""}`}>
+                  <Link to="/curated-experiences" className="sub-menu-item">
+                    Curated Experiences
+                  </Link>
+                </li>
+                <li className={`${manu === "/other-services" ? "active" : ""}`}>
+                  <Link to="/other-services" className="sub-menu-item">
+                    Other Services
+                  </Link>
+                </li>
+              </ul>
+            </li>
+
+            <li className={`${manu === "/" ? "active" : ""}`}>
+              <Link to="/" className="sub-menu-item">
+                About Us
+              </Link>
+            </li>
+
+            <li className={`${manu === "/" ? "active" : ""}`}>
+              <Link to="/" className="sub-menu-item">
                 Contact Us
               </Link>
             </li>

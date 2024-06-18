@@ -3,13 +3,14 @@ import { Link } from "react-router-dom";
 
 import Tagline from "../../components/tagline";
 import Navbar from "../../components/navbar";
-import Form from "../../components/form";
+// import Form from "../../components/form";
 import TopDestinationOne from "../../components/top-destination-one";
 import About from "../../components/about";
+import BespokeHolidays from "../../components/bespoke-holidays";
 import Client from "../../components/client";
 import Blogs from "../../components/blogs";
 import Footer from "../../components/footer";
-import Switcher from "../../components/switcher";
+// import Switcher from "../../components/switcher";
 
 import ModalVideo from "react-modal-video";
 import "../../../node_modules/react-modal-video/scss/modal-video.scss";
@@ -64,12 +65,14 @@ export default function Index() {
         </div>
       </section>
 
-      <div className="container relative -mt-16 z-1">
+      {/* <div className="container relative -mt-16 z-1">
         <Form />
-      </div>
+      </div> */}
 
-      <section className="relative md:py-24 py-16 overflow-hidden">
-        <TopDestinationOne />
+      <section className="relative overflow-hidden">
+        <BespokeHolidays />
+
+        {/* <TopDestinationOne /> */}
 
         <div className="container relative md:mt-24 mt-16">
           <div className="grid grid-cols-1 pb-8 text-center">
@@ -174,7 +177,7 @@ export default function Index() {
         <Blogs />
       </section>
       <Footer />
-      <Switcher />
+      {/* <Switcher /> */}
     </>
   );
 }

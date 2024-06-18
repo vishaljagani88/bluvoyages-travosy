@@ -5,6 +5,7 @@ import Tagline from "../../components/tagline";
 import Navbar from "../../components/navbar";
 import Form from "../../components/form";
 import About from "../../components/about";
+import BespokeHolidays from "../../components/bespoke-holidays";
 import Client from "../../components/client";
 import Blogs from "../../components/blogs";
 import Footer from "../../components/footer";
@@ -109,14 +110,14 @@ export default function IndexTwo() {
         </div>
       </section>
 
-      <section className="relative py-16 bg-gray-50 dark:bg-slate-800">
+      {/* <section className="relative py-16 bg-gray-50 dark:bg-slate-800">
         <div className="container relative">
           <Form />
         </div>
-      </section>
+      </section> */}
 
       <section className="relative md:pb-24 pb-16 overflow-hidden">
-        <About />
+        <BespokeHolidays />
 
         <div className="container relative md:mt-24 mt-16">
           <div className="grid grid-cols-1 pb-8 text-center">
