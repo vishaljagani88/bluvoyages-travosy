@@ -3,11 +3,14 @@ import { Route, Routes } from "react-router-dom";
 import "./assets/css/tailwind.css";
 import "./assets/css/materialdesignicons.min.css";
 
+import "./assets/css/style.css";
+
 import Index from "./pages/index/index";
 import IndexTwo from "./pages/index/index-two";
 import IndexThree from "./pages/index/index-three";
 import IndexFour from "./pages/index/index-four";
 import IndexFive from "./pages/index/index-five";
+import IndexMain from "./pages/index/index-main";
 import Grid from "./pages/listing/tour-grid/grid";
 import GridLeftSidebar from "./pages/listing/tour-grid/grid-left-sidebar";
 import GridRightSidebar from "./pages/listing/tour-grid/grid-right-sidebar";
@@ -45,7 +48,8 @@ import Contact from "./pages/contact";
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<Index />} />
+      {/* <Route path="/" element={<Index />} /> */}
+      <Route path="/" element={<IndexMain />} />
       <Route path="/index-two" element={<IndexTwo />} />
       <Route path="/index-three" element={<IndexThree />} />
       <Route path="/index-four" element={<IndexFour />} />
