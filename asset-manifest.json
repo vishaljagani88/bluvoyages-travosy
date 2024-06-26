@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/bluvoyages-travosy/static/css/main.63078630.css",
-    "main.js": "/bluvoyages-travosy/static/js/main.0c89308f.js",
+    "main.css": "/bluvoyages-travosy/static/css/main.4d8c243b.css",
+    "main.js": "/bluvoyages-travosy/static/js/main.d6ff4116.js",
     "static/js/453.e76899b4.chunk.js": "/bluvoyages-travosy/static/js/453.e76899b4.chunk.js",
     "static/media/materialdesignicons-webfont.eot": "/bluvoyages-travosy/static/media/materialdesignicons-webfont.2146c3c82b553977abc7.eot",
     "static/media/materialdesignicons-webfont.ttf?v=7.4.47": "/bluvoyages-travosy/static/media/materialdesignicons-webfont.1fcc36272ea3e53d0031.ttf",
@@ -44,12 +44,12 @@
     "static/media/05.jpg": "/bluvoyages-travosy/static/media/05.3a862a943cf0d15854c2.jpg",
     "static/media/maintenance.svg": "/bluvoyages-travosy/static/media/maintenance.2d9a52ef0452efba8eb231c739a057dc.svg",
     "index.html": "/bluvoyages-travosy/index.html",
-    "main.63078630.css.map": "/bluvoyages-travosy/static/css/main.63078630.css.map",
-    "main.0c89308f.js.map": "/bluvoyages-travosy/static/js/main.0c89308f.js.map",
+    "main.4d8c243b.css.map": "/bluvoyages-travosy/static/css/main.4d8c243b.css.map",
+    "main.d6ff4116.js.map": "/bluvoyages-travosy/static/js/main.d6ff4116.js.map",
     "453.e76899b4.chunk.js.map": "/bluvoyages-travosy/static/js/453.e76899b4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.63078630.css",
-    "static/js/main.0c89308f.js"
+    "static/css/main.4d8c243b.css",
+    "static/js/main.d6ff4116.js"
   ]
 }
