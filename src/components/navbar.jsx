@@ -726,7 +726,7 @@ export default function Navbar({ navclass, navlight, manuclass }) {
                 onClick={() => setSubManu(subManu === "/listing-item" ? "" : "/listing-item")}
               >
                 {" "}
-                Blue{" "}
+                Trips{" "}
               </Link>
               <span className="menu-arrow"></span>
               <ul className={`submenu ${["/", "/", "/"].includes(subManu) ? "open" : ""}`}>
