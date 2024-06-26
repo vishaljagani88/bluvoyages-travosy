@@ -718,7 +718,24 @@ export default function Navbar({ navclass, navlight, manuclass }) {
 
             <li
               className={`has-submenu parent-parent-menu-item ${
-                ["/", "/", "/"].includes(manu) ? "active" : ""
+                [
+                  "/north",
+                  "/south",
+                  "/east",
+                  "/west",
+                  "/grid-item",
+                  "/asia",
+                  "/africa",
+                  "/north-america",
+                  "/south-america",
+                  "/antarctica",
+                  "/europe",
+                  "/australia",
+                  "/listing-item",
+                  "/list-item",
+                ].includes(manu)
+                  ? "active"
+                  : ""
               }`}
             >
               <Link
@@ -729,21 +746,45 @@ export default function Navbar({ navclass, navlight, manuclass }) {
                 Trips{" "}
               </Link>
               <span className="menu-arrow"></span>
-              <ul className={`submenu ${["/", "/", "/"].includes(subManu) ? "open" : ""}`}>
+              <ul
+                className={`submenu ${
+                  [
+                    "/north",
+                    "/south",
+                    "/east",
+                    "/west",
+                    "/grid-item",
+                    "/asia",
+                    "/africa",
+                    "/north-america",
+                    "/south-america",
+                    "/list-item",
+                    "/antarctica",
+                    "/europe",
+                    "/australia",
+                    "/listing-item",
+                  ].includes(subManu)
+                    ? "open"
+                    : ""
+                }`}
+              >
                 <li
                   className={`has-submenu parent-menu-item ${
-                    ["/", "/", "/"].includes(manu) ? "active" : ""
+                    ["/north", "/south", "/east", "/west", "/grid-item"].includes(manu)
+                      ? "active"
+                      : ""
                   }`}
                 >
-                  <Link to="" onClick={() => setSubManu(subManu === "/india" ? "" : "/grid-item")}>
+                  <Link
+                    to=""
+                    onClick={() => setSubManu(subManu === "/grid-item" ? "" : "/grid-item")}
+                  >
                     India{" "}
                   </Link>
                   <span className="submenu-arrow"></span>
                   <ul
                     className={`submenu ${
-                      ["/grid", "/grid-left-sidebar", "/grid-right-sidebar", "/grid-item"].includes(
-                        subManu
-                      )
+                      ["/north", "/south", "/east", "/west", "/grid-item"].includes(subManu)
                         ? "open"
                         : ""
                     }`}
@@ -773,7 +814,17 @@ export default function Navbar({ navclass, navlight, manuclass }) {
 
                 <li
                   className={`has-submenu parent-menu-item ${
-                    ["/", "/", "/"].includes(manu) ? "active" : ""
+                    [
+                      "/asia",
+                      "/africa",
+                      "/north-america",
+                      "/south-america",
+                      "/list-item",
+                      "/antarctica",
+                      "/europe",
+                    ].includes(manu)
+                      ? "active"
+                      : ""
                   }`}
                 >
                   <Link
@@ -783,7 +834,21 @@ export default function Navbar({ navclass, navlight, manuclass }) {
                     International{" "}
                   </Link>
                   <span className="submenu-arrow"></span>
-                  <ul className={`submenu ${["/", "/", "/"].includes(subManu) ? "open" : ""}`}>
+                  <ul
+                    className={`submenu ${
+                      [
+                        "/asia",
+                        "/africa",
+                        "/north-america",
+                        "/south-america",
+                        "/list-item",
+                        "/antarctica",
+                        "/europe",
+                      ].includes(subManu)
+                        ? "open"
+                        : ""
+                    }`}
+                  >
                     <li className={`${manu === "/asia" ? "active" : ""}`}>
                       <Link to="/asia" className="sub-menu-item">
                         Asia
@@ -851,15 +916,20 @@ export default function Navbar({ navclass, navlight, manuclass }) {
               </ul>
             </li> */}
 
-            <li className={`${manu === "/" ? "active" : ""}`}>
-              <Link to="/" className="sub-menu-item">
+            <li className={`${manu === "/itinerary" ? "active" : ""}`}>
+              <Link to="/itinerary" className="sub-menu-item">
                 Itinerary
               </Link>
             </li>
 
             <li
               className={`has-submenu parent-menu-item ${
-                ["/happy-travelers", "/curated-experiences", "/other-services"].includes(manu)
+                [
+                  "/happy-travelers",
+                  "/curated-experiences",
+                  "/other-services",
+                  "/index-item",
+                ].includes(manu)
                   ? "active"
                   : ""
               }`}
@@ -873,7 +943,12 @@ export default function Navbar({ navclass, navlight, manuclass }) {
               <span className="menu-arrow"></span>
               <ul
                 className={`submenu ${
-                  ["/happy-travelers", "/curated-experiences", "/other-services"].includes(subManu)
+                  [
+                    "/happy-travelers",
+                    "/curated-experiences",
+                    "/other-services",
+                    "/index-item",
+                  ].includes(subManu)
                     ? "open"
                     : ""
                 }`}
@@ -896,14 +971,14 @@ export default function Navbar({ navclass, navlight, manuclass }) {
               </ul>
             </li>
 
-            <li className={`${manu === "/" ? "active" : ""}`}>
-              <Link to="/" className="sub-menu-item">
+            <li className={`${manu === "/aboutus" ? "active" : ""}`}>
+              <Link to="/aboutus" className="sub-menu-item">
                 About Us
               </Link>
             </li>
 
-            <li className={`${manu === "/" ? "active" : ""}`}>
-              <Link to="/" className="sub-menu-item">
+            <li className={`${manu === "/contactus" ? "active" : ""}`}>
+              <Link to="/contactus" className="sub-menu-item">
                 Contact Us
               </Link>
             </li>

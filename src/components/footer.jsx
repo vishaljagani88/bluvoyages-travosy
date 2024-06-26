@@ -43,13 +43,13 @@ export default function Footer() {
                 <div className="lg:col-span-3 md:col-span-4">
                   <div className="lg:ms-8">
                     <h5 className="tracking-[1px] text-gray-100 font-semibold">Office</h5>
-                    <h5 className="tracking-[1px] text-gray-100 mt-6">Travosy Tour & Travels</h5>
+                    <h5 className="tracking-[1px] text-gray-100 mt-6">BluVoyages Tour & Travels</h5>
 
                     <div className="flex mt-4">
                       <FiMapPin className="size-4 text-red-500 me-2 mt-1"></FiMapPin>
                       <div className="">
                         <h6 className="text-gray-300">
-                          C/54 Northwest Freeway, <br /> Suite 558, <br /> Houston, USA 485
+                          C/54 Northwest Freeway, <br /> Suite 558, <br /> Ahmedabad, India 300001
                         </h6>
                       </div>
                     </div>
@@ -61,7 +61,7 @@ export default function Footer() {
                           to="mailto:contact@example.com"
                           className="text-slate-300 hover:text-slate-400 duration-500 ease-in-out"
                         >
-                          contact@example.com
+                          contact@bluvoyages.com
                         </Link>
                       </div>
                     </div>
@@ -70,10 +70,10 @@ export default function Footer() {
                       <FiPhone className="size-4 text-red-500 me-2 mt-1"></FiPhone>
                       <div className="">
                         <Link
-                          to="tel:+152534-468-854"
+                          to="tel:+9199999-99999"
                           className="text-slate-300 hover:text-slate-400 duration-500 ease-in-out"
                         >
-                          +152 534-468-854
+                          +91 99999 99999
                         </Link>
                       </div>
                     </div>

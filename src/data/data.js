@@ -346,24 +346,20 @@ export const footerCompany = [
     link: "/aboutus",
   },
   {
-    name: "Services",
-    link: "/services",
+    name: "Contact Us",
+    link: "/contactus",
   },
   {
-    name: "Team",
-    link: "/team",
+    name: "Happy Travelers",
+    link: "/happytravelers",
   },
   {
-    name: "Pricing",
-    link: "/pricing",
+    name: "Curated Experinces",
+    link: "/curated",
   },
   {
-    name: "Blog",
-    link: "/blogs",
-  },
-  {
-    name: " Login",
-    link: "/login",
+    name: "Other Services",
+    link: "/otherservices",
   },
 ];
 
