@@ -50,7 +50,7 @@ function App() {
     <Routes>
       {/* <Route path="/" element={<Index />} /> */}
       <Route path="/" element={<IndexMain />} />
-      <Route path="/index-two" element={<IndexTwo />} />
+      {/* <Route path="/index-two" element={<IndexTwo />} />
       <Route path="/index-three" element={<IndexThree />} />
       <Route path="/index-four" element={<IndexFour />} />
       <Route path="/index-five" element={<IndexFive />} />
@@ -88,7 +88,7 @@ function App() {
       <Route path="/blog-standard" element={<BlogStandard />} />
       <Route path="/blog-detail" element={<BlogDetail />} />
       <Route path="/blog-detail/:id" element={<BlogDetail />} />
-      <Route path="/contact" element={<Contact />} />
+      <Route path="/contact" element={<Contact />} /> */}
     </Routes>
   );
 }

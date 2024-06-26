@@ -10,7 +10,7 @@ import CountUp from "react-countup";
 
 export default function WhyUs() {
   return (
-    <div className="container relative md:mt-24 mt-16">
+    <div className="container relative md:mt-12 mt-8">
       <div className="grid md:grid-cols-12 grid-cols-1 items-center gap-6 relative">
         <div className="md:col-span-6">
           <div className="lg:ms-8">

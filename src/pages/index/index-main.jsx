@@ -121,7 +121,7 @@ export default function IndexTwo() {
         </div>
       </section> */}
 
-      <section className="relative md:pb-24 pb-16 overflow-hidden">
+      <section className="relative md:pb-12 pb-8 overflow-hidden">
         <BespokeHolidays />
         <Destinations />
         <WhyUs />
