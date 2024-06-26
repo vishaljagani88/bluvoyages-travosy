@@ -2,6 +2,15 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 import { FiSun, FiMoon } from "react-icons/fi";
+import {
+  FiClock,
+  FiMapPin,
+  FiMail,
+  FiFacebook,
+  FiInstagram,
+  FiTwitter,
+  FiPhone,
+} from "react-icons/fi";
 export default function Switcher() {
   let [visible, setVisible] = useState(false);
 
@@ -44,7 +53,36 @@ export default function Switcher() {
 
   return (
     <>
-      <div className="fixed top-1/4 -left-2 z-50">
+      <div className="fixed top-1/9 right-6 z-50">
+        <ul className="list-none">
+          <li className="items-center ms-2">
+            <ul className="list-none space-x-3">
+              <li className="ms-2 mb-2">
+                <a href="#!" className="text-slate-300 hover:text-red-500">
+                  <FiFacebook className="size-4 align-middle" title="facebook"></FiFacebook>
+                </a>
+              </li>
+              <li className=" ms-2 mb-2">
+                <a href="#!" className="text-slate-300 hover:text-red-500">
+                  <FiInstagram className="size-4 align-middle" title="instagram"></FiInstagram>
+                </a>
+              </li>
+              <li className=" ms-2 mb-2">
+                <a href="#!" className="text-slate-300 hover:text-red-500">
+                  <FiTwitter className="size-4 align-middle" title="twitter"></FiTwitter>
+                </a>
+              </li>
+              <li className=" ms-2 mb-2">
+                <a href="tel:+152534-468-854" className="text-slate-300 hover:text-red-500">
+                  <FiPhone className="size-4 align-middle" title="phone"></FiPhone>
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+
+      {/* <div className="fixed top-1/4 -left-2 z-50">
         <span className="relative inline-block rotate-90">
           <input
             type="checkbox"
@@ -61,9 +99,9 @@ export default function Switcher() {
             <span className="ball bg-white dark:bg-slate-900 rounded-full absolute top-[2px] left-[2px] w-7 h-7"></span>
           </label>
         </span>
-      </div>
+      </div> */}
 
-      <div className="fixed top-[40%] -left-3 z-50">
+      {/* <div className="fixed top-[40%] -left-3 z-50">
         <Link to="" id="switchRtl" onClick={() => modeChange()}>
           <span className="py-1 px-3 relative inline-block rounded-b-md -rotate-90 bg-white dark:bg-slate-900 shadow-md dark:shadow dark:shadow-gray-800 font-semibold rtl:block ltr:hidden">
             LTR
@@ -72,9 +110,9 @@ export default function Switcher() {
             RTL
           </span>
         </Link>
-      </div>
+      </div> */}
 
-      <Link
+      {/* <Link
         to="#"
         onClick={() => scrollToTop()}
         id="back-to-top"
@@ -82,7 +120,7 @@ export default function Switcher() {
         style={{ display: visible ? "inline-flex" : "none" }}
       >
         <i className="mdi mdi-arrow-up"></i>
-      </Link>
+      </Link> */}
     </>
   );
 }

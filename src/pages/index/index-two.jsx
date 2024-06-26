@@ -28,7 +28,7 @@ export default function IndexTwo() {
     <>
       <Tagline />
       <Navbar
-        navclass="defaultscroll is-sticky tagline-height"
+        navclass="defaultscroll is-sticky"
         navlight={true}
         manuclass="justify-end nav-light"
       />

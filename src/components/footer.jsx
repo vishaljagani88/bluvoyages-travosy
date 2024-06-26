@@ -143,12 +143,8 @@ export default function Footer() {
           <div className="grid grid-cols-1">
             <div className="text-center">
               <p className="mb-0">
-                © {new Date().getFullYear()} Travosy. Design & Develop with{" "}
-                <i className="mdi mdi-heart text-red-600"></i> by{" "}
-                <Link to="https://shreethemes.in/" target="_blank" className="text-reset">
-                  Shreethemes
-                </Link>
-                .
+                © {new Date().getFullYear()} BluVoyages. Design & Develop with{" "}
+                <i className="mdi mdi-heart text-red-600"></i> by BluVoyages.
               </p>
             </div>
           </div>

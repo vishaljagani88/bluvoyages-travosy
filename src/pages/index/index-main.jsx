@@ -31,9 +31,9 @@ import { FiMapPin } from "react-icons/fi";
 export default function IndexTwo() {
   return (
     <>
-      <Tagline />
+      {/* <Tagline /> */}
       <Navbar
-        navclass="defaultscroll is-sticky tagline-height"
+        navclass="defaultscroll is-sticky"
         navlight={true}
         manuclass="justify-end nav-light"
       />
@@ -220,7 +220,7 @@ export default function IndexTwo() {
         <Blogs /> */}
       </section>
       <Footer />
-      {/* <Switcher /> */}
+      <Switcher />
     </>
   );
 }

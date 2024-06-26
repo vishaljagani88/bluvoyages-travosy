@@ -50,6 +50,20 @@ function App() {
     <Routes>
       {/* <Route path="/" element={<Index />} /> */}
       <Route path="/" element={<IndexMain />} />
+      <Route path="/north" element={<Comingsoon />} />
+      <Route path="/south" element={<Comingsoon />} />
+      <Route path="/east" element={<Comingsoon />} />
+      <Route path="/west" element={<Comingsoon />} />
+      <Route path="/asia" element={<Comingsoon />} />
+      <Route path="/africa" element={<Comingsoon />} />
+      <Route path="/north-america" element={<Comingsoon />} />
+      <Route path="/south-america" element={<Comingsoon />} />
+      <Route path="/antarctica" element={<Comingsoon />} />
+      <Route path="/europe" element={<Comingsoon />} />
+      <Route path="/australia" element={<Comingsoon />} />
+      <Route path="/comingsoon" element={<Comingsoon />} />
+
+      <Route path="*" element={<Comingsoon />} />
       {/* <Route path="/index-two" element={<IndexTwo />} />
       <Route path="/index-three" element={<IndexThree />} />
       <Route path="/index-four" element={<IndexFour />} />

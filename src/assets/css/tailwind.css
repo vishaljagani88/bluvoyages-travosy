@@ -780,6 +780,9 @@ video {
 .-left-2 {
   left: -0.5rem !important;
 }
+.right-6 {
+  right: 1.5rem !important;
+}
 .-left-3 {
   left: -0.75rem !important;
 }
@@ -842,6 +845,9 @@ video {
 }
 .top-1\/4 {
   top: 25% !important;
+}
+.top-1\/9 {
+  top: 20% !important;
 }
 .top-16 {
   top: 4rem !important;
@@ -1185,6 +1191,9 @@ video {
 }
 .h-\[18px\] {
   height: 18px !important;
+}
+.h-\[72px\] {
+  height: 72px !important;
 }
 .h-\[300px\] {
   height: 300px !important;
