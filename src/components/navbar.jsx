@@ -95,7 +95,7 @@ export default function Navbar({ navclass, navlight, manuclass }) {
           </div>
         </div>
 
-          <div id="navigation" style={{ display: isToggle === true ? "block" : "none" }}>
+        <div id="navigation" style={{ display: isToggle === true ? "block" : "none" }}>
           <ul className={`navigation-menu ${manuclass}`}>
             {/* <li
               className={`has-submenu parent-menu-item ${
@@ -726,7 +726,7 @@ export default function Navbar({ navclass, navlight, manuclass }) {
                 onClick={() => setSubManu(subManu === "/listing-item" ? "" : "/listing-item")}
               >
                 {" "}
-                Trips{" "}
+                Blue{" "}
               </Link>
               <span className="menu-arrow"></span>
               <ul className={`submenu ${["/", "/", "/"].includes(subManu) ? "open" : ""}`}>
